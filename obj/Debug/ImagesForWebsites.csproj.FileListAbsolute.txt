@@ -1,0 +1,17 @@
+D:\Projects VS\ImagesForWebsites\obj\Debug\ImagesForWebsites.csproj.AssemblyReference.cache
+D:\Projects VS\ImagesForWebsites\obj\Debug\ImagesForWebsites.Properties.Resources.resources
+D:\Projects VS\ImagesForWebsites\obj\Debug\ImagesForWebsites.csproj.GenerateResource.cache
+D:\Projects VS\ImagesForWebsites\obj\Debug\ImagesForWebsites.csproj.CoreCompileInputs.cache
+D:\Projects VS\ImagesForWebsites\bin\Debug\Magick.Native-Q8-arm64.dll
+D:\Projects VS\ImagesForWebsites\bin\Debug\Magick.Native-Q8-x64.dll
+D:\Projects VS\ImagesForWebsites\bin\Debug\Magick.Native-Q8-x86.dll
+D:\Projects VS\ImagesForWebsites\bin\Debug\ImagesForWebsites.exe.config
+D:\Projects VS\ImagesForWebsites\bin\Debug\ImagesForWebsites.exe
+D:\Projects VS\ImagesForWebsites\bin\Debug\ImagesForWebsites.pdb
+D:\Projects VS\ImagesForWebsites\bin\Debug\Magick.NET-Q8-AnyCPU.dll
+D:\Projects VS\ImagesForWebsites\bin\Debug\Magick.NET.Core.dll
+D:\Projects VS\ImagesForWebsites\bin\Debug\Magick.NET-Q8-AnyCPU.xml
+D:\Projects VS\ImagesForWebsites\bin\Debug\Magick.NET.Core.xml
+D:\Projects VS\ImagesForWebsites\obj\Debug\ImagesFo.B5B74226.Up2Date
+D:\Projects VS\ImagesForWebsites\obj\Debug\ImagesForWebsites.exe
+D:\Projects VS\ImagesForWebsites\obj\Debug\ImagesForWebsites.pdb
