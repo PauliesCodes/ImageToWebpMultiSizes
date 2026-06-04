@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects VS\\ImagesForWebsites\\",
+  "WorkspaceRootPath": "D:\\Projects VS\\ImagesForWebsites\\ImageToWebpMultiSizes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10FD76F0-E306-4607-83C7-081BF2ACEF0E}|ImagesForWebsites.csproj|d:\\projects vs\\imagesforwebsites\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10FD76F0-E306-4607-83C7-081BF2ACEF0E}|ImagesForWebsites.csproj|d:\\projects vs\\imagesforwebsites\\imagetowebpmultisizes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10FD76F0-E306-4607-83C7-081BF2ACEF0E}|ImagesForWebsites.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Projects VS\\ImagesForWebsites\\Form1.cs",
+              "DocumentMoniker": "D:\\Projects VS\\ImagesForWebsites\\ImageToWebpMultiSizes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Projects VS\\ImagesForWebsites\\Form1.cs",
+              "ToolTip": "D:\\Projects VS\\ImagesForWebsites\\ImageToWebpMultiSizes\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAJYCAAAAAAAAAADwv6kCAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUDAAAAAAAAAADwvwkDAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T18:02:42.706Z",
               "EditorCaption": ""

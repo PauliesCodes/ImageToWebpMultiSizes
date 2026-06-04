@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ImagesForWebsites.exe" version="1.0.0.0" publicKeyToken="8165e9010a6fa01b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ImagesForWebsites" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ImagesForWebsites.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Možnosti manifestu UAC
+          Chcete-li změnit úroveň řízení uživatelských účtů v systému Windows, nahraďte 
+          uzel requestedExecutionLevel jedním z následujících.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Chcete-li využít virtualizaci souborů a registru pro zpětnou 
+         kompatibilitu, odstraňte uzel requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ImagesForWebsites.exe" size="30680">
+      <assemblyIdentity name="ImagesForWebsites" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MVWG0nUyBNejtS3s4RDrW/fFZ6Fnp7cO7cCexN9Z6o0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Magick.NET.Core.dll" size="1535664">
+      <assemblyIdentity name="Magick.NET.Core" version="14.13.0.0" publicKeyToken="2004825BADFA91EC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cnQkaiXfgfmbRtlrzvcQ1dbqNd3LlKgamj0DN7ZfSTc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Magick.NET-Q8-AnyCPU.dll" size="1128624">
+      <assemblyIdentity name="Magick.NET-Q8-AnyCPU" version="14.13.0.0" publicKeyToken="2004825BADFA91EC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xA8GhG/1hUWORgD07qqKzE8jzPitI0pVVOgatZ3T9HI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ImagesForWebsites.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Magick.Native-Q8-arm64.dll" size="20040368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5iMS054jnuWnSDKr6w9HfU9J09l6P29fXACV/N4m9W4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Magick.Native-Q8-x64.dll" size="23091888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IGrr40OHrU5xIX425pUptm/mpi6eZ5OJoPVqu9+Owcg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Magick.Native-Q8-x86.dll" size="19199152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E1GNK+p3/nYZcZhqFBSxCn2fFpa+fTwtBG3l6bz+abI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-KIMITVK\ASUS" issuerKeyHash="2097e564b864010e3bc55cd78895d106e115bdc6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TQNz2+YteCmBoy8L/TpJkh2Jfbthee+yo+CxMv5CHh8=</DigestValue></Reference></SignedInfo><SignatureValue>TO3abMuUl5dtvq/VvO8MMSCRwqJjSvHOKSg23d+BeGCY2BFT9txbAmg93YEOdHFiiwfkCx4RQ4jfKowYfGG+QexKQQ9Hv1132Bavl86IHa9Wy3K5VeBVjF3e1Htk6In8fIkTvchIeK9NjIOtlI2KoC0W/UYDQOXJcgjEIxlLe7I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rykxGYlnhFQVNiBCBKl24vdhsQsGYEwSSycLkwkDlsTl9jMgt0NsmvrL8wY63J6zcJXxu4RWBowKBGHjTEQ/3wGY0C98VCjSRyXNKO93agNKKbyJUV8VKBgokPwcAqrQqK9bdwsXIBEEviJqSLUj+8SsGjdbzu/SEnUbC4h6LN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1f1e42fe32b1e0a3b2ef7961bb7d891d92493afd0b2fa38129782de6db73034d" Description="" Url=""><as:assemblyIdentity name="ImagesForWebsites.exe" version="1.0.0.0" publicKeyToken="8165e9010a6fa01b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-KIMITVK\ASUS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oYX02/q5pelhTGDjU/APEtCPce5I9xknQ5oy6IV7dug=</DigestValue></Reference></SignedInfo><SignatureValue>YyHAciieGnZFhJM8hh4dMqJkZerWXWCuPJJGveMD3B3t3uREHQe8RlKvltmG9fB628Jgpo5sAqOqaeY22BhQHTZKu1s234V0HVge7WTHwOhiLWkRdZl/CFckGrpAg7MpHTrpCiu27K3nE8B4M5+n8AjpxVoMg3z1c/lo7WHaj+Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rykxGYlnhFQVNiBCBKl24vdhsQsGYEwSSycLkwkDlsTl9jMgt0NsmvrL8wY63J6zcJXxu4RWBowKBGHjTEQ/3wGY0C98VCjSRyXNKO93agNKKbyJUV8VKBgokPwcAqrQqK9bdwsXIBEEviJqSLUj+8SsGjdbzu/SEnUbC4h6LN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQF2EGJvWZq6tEqKoPubkkhTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEsASQBNAEkAVABWAEsAXABBAFMAVQBTMB4XDTI2MDYwNDE4NTQzNloXDTI3MDYwNTAwNTQzNlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBLAEkATQBJAFQAVgBLAFwAQQBTAFUAUzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArykxGYlnhFQVNiBCBKl24vdhsQsGYEwSSycLkwkDlsTl9jMgt0NsmvrL8wY63J6zcJXxu4RWBowKBGHjTEQ/3wGY0C98VCjSRyXNKO93agNKKbyJUV8VKBgokPwcAqrQqK9bdwsXIBEEviJqSLUj+8SsGjdbzu/SEnUbC4h6LN0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCnVbVNFZR8F+foXulj87O4W8HWdV5YN9u1DDIZGE71MxZkD5WzUZzICBl9HS5TWmnf1Ft6ydMOg1PbKzE8Ra8QqG//ygpdkuly1PbSbQcGtU0WnAqcIIujEEujndmfsKjg6pTc3M9/1n7EbW9PFycRqFUuxiidkHLnyiKsx1pu9w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
