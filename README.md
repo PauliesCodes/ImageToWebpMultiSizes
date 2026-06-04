@@ -1,44 +1,59 @@
-Web Image Optimizer
+# Web Image Batch Optimizer
 
-A desktop application designed to batch resize images and convert them into the
-modern, web-optimized WebP format.
+A lightweight desktop application designed to batch resize images and convert them into the modern, web-optimized **WebP** format.
 
-Why this project exists
+---
 
-Most online image converters come with frustrating limitations: they restrict
-the number of files you can upload, enforce strict file size limits, queue your
-tasks, or require paid subscriptions for batch processing. Additionally,
-uploading large source files to the cloud and downloading them back is often
-slow and inefficient.
+## Quick Start / Installation
 
-This application was created to provide a local, fast, and completely free
-alternative. By running the conversion directly on your machine, there are no
-file limits, no subscription fees, and no waiting for uploads to finish.
+To run the application on your computer:
 
-Key Features
+1. **Download** the archive named `ImageToWebpMultiSizes Alpha.zip` from this repository.
+2. **Extract** the contents of the ZIP file to a folder of your choice.
+3. Run the **setup** file (e.g., `Setup.exe` or the setup installer) inside the extracted folder to install and launch the application.
 
-  - Offline Batch Processing: Convert and resize hundreds of images locally with
-    no internet connection required.
-  - Multi-Dimension Mapping: Create multiple target heights
-    (e.g., 800px, 400px, 200px) and assign specific images to different sizes in
-    a single run.
-  - Visual Color-Coding: Each target dimension is assigned a unique pastel
-    color. The image cards in the gallery are highlighted with these colors,
-    making it clear which image is assigned to which size.
-  - Quick Select/Deselect: Easily select or deselect all images for the
-    currently active dimension with a single click.
-  - Original File Names Kept: The output files retain their original names,
-    changing only the file extension to .webp for seamless integration into your
-    web projects.
-  - Size Reduction Statistics: The application displays the total size of the
-    loaded source files and, upon completion, calculates the final WebP size and
-    the exact compression ratio.
-  - Asynchronous & Responsive UI: Built using async/await patterns, ensuring the
-    application remains responsive during thumbnail generation and heavy image
-    processing tasks.
+---
 
-Technologies Used
+## Why This Project Exists
 
-  - Language & UI: C# with Windows Forms (WinForms)
-  - Image Processing Engine: Magick.NET (a robust .NET wrapper for ImageMagick),
-    which handles high-quality WebP encoding and proportional resizing.
+Most online image converters come with frustrating limitations:
+* **File limits:** They restrict the number of files you can process at once.
+* **Size constraints:** Large images are often blocked unless you pay.
+* **Paywalls:** Access to fast or unlimited batch processing is frequently hidden behind subscriptions.
+* **Slow speeds:** Uploading high-resolution PNG or JPG files to a server and downloading them back takes significant time.
+
+This application was developed to offer a **local, offline, and completely free alternative**. By running the conversion directly on your computer, it eliminates file size limits, subscription costs, and upload bottlenecks.
+
+---
+
+## Key Features
+
+* **Multi-Dimension Task Management:**
+  * Define multiple target heights (e.g., 800px, 400px, 200px) in a single session.
+  * Individually map specific images to different target dimensions.
+  * Proportional resizing based on height prevents image distortion.
+
+* **Visual Color-Coding:**
+  * Each target dimension is assigned a unique pastel color.
+  * Selected image cards are highlighted with the color of their active dimension.
+  * Small color indicators (dots) on the bottom of each card display all assigned sizes for that image.
+
+* **Efficient Workflows:**
+  * Displays thumbnail previews, file names, and individual file sizes for all images in the source folder.
+  * **Select All** and **Deselect All** buttons allow quick bulk assignment for the currently active dimension.
+  * Keeps the original file name, changing only the extension to `.webp` for straightforward web deployment.
+
+* **Data Savings & Statistics:**
+  * Calculates and displays the total size of all loaded source files.
+  * Computes the final size of the output WebP files and displays the compression ratio (e.g., "5.4x smaller") upon completion.
+
+* **Asynchronous Performance:**
+  * Built using asynchronous C# patterns (`async/await`) to ensure the user interface remains responsive during background thumbnail loading and heavy image compression.
+
+---
+
+## Technical Specifications
+
+* **Language & Framework:** C# with Windows Forms (.NET)
+* **Image Processing Engine:** **Magick.NET** (ImageMagick wrapper for C#) for high-quality WebP encoding and proportional resizing.
+* **I/O Handling:** Non-locking file stream access to prevent file locks in the operating system during thumbnail generation.
